@@ -1,0 +1,1 @@
+<a href="{{ Request::url().'/'.$entry->getKey() }}/media" class="btn btn-xs btn-default"><i class="fa fa-eye"></i> Lihat Media</a>.

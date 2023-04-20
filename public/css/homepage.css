@@ -1,0 +1,130 @@
+.slide-header {
+    margin-top: 165px;
+}
+#homepage-slides .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 853px) {
+    .slide-header {
+        margin-top: 0px;
+    }
+}
+@media (min-width: 936px) {
+	.slide-header {
+		margin-top: 79px;
+	}
+}
+/*
+@media (max-width: 639) {
+    #homepage-slides .owl-item img {
+        max-height: auto;
+    }
+}
+@media (max-width: 700px) {
+    #homepage-slides .owl-item img {
+        max-height: 380px;
+    }
+}
+@media (min-width: 701px) {
+    #homepage-slides .owl-item img {
+        max-height: 380px;
+    }
+}
+@media (min-width: 936px) {
+    #homepage-slides .owl-item img{
+        max-height: 465px;
+    }
+}*/
+#homepage-slides .owl-nav div {
+	width: 40px;
+    height: 40;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin: 0px;
+    color: #ea4949;
+    background-color: rgba(199, 198, 198, 0.62);
+    transform: translateY(-50%);
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#homepage-slides .owl-nav div.owl-next {
+	left: auto;
+	right: 20px;
+}
+#homepage-slides .owl-dot {
+	/*height: 15px;
+    width: 15px;
+    background: red;
+    display: inline-block;
+    margin: 0 2px;
+    border-radius: 50%;*/
+}
+#homepage-slides .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 15px;
+}
+#homepage-slides .owl-dot span {
+	border: 1px solid #6a6f6a;
+	background: rgba(255,255,255,0);
+}
+#homepage-slides .owl-dot.active span {
+	background-color: red;
+}
+.body_home {
+    padding: 15px 15px;
+}
+.slide-header, .body_home {
+    background-color: #fff;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}
+.home_content {
+    /*background: #E8E8E8 none repeat scroll 0% 0%;
+    border: 1px solid #E8E8E8;*/
+    position: relative;
+}
+/*.home_img {
+    position: relative;
+    overflow: hidden;
+}
+.home_img h2 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font: 23px gotham-mediumgotham-medium,sans-serif;
+    color: #FFF;
+    z-index: 1;
+    padding: 20px 15px;
+}
+.home_img img {
+    display: block;
+    width: 100%;
+    transition: all 1s ease-out 0s;
+}*/
+@media (min-width: 854px) {
+    .body_home .col-md-4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+.body_home h5 {
+    color: #151515;
+    font-weight: bold;
+    font: 23px gothammedium,sans-serif;
+}
+.body_home .readMore {
+    margin-top: 5px;
+}
+.body_home  h5:hover {
+    color: #E51B2F;
+}
